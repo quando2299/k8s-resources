@@ -4,6 +4,8 @@ metadata:
   name: timestamp-job
   namespace: k8s-resources
 spec:
+  completions: 10
+  parallelism: 3
   template:
     metadata:
       labels:
