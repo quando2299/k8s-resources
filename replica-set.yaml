@@ -16,7 +16,7 @@ spec:
         app: nginx
     spec:
       containers:
-        - name: nginxw
+        - name: nginx
           image: nginx:latest
           imagePullPolicy: IfNotPresent
           ports:
